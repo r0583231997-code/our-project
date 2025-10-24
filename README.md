@@ -1,75 +1,73 @@
-# 🌸 our project 🌸
+# 🌸 Our Project 🌸
 
-> פרויקט לימודי שנוצר לצורך תרגול עבודה עם **HTML, CSS ו-GitHub** במסגרת קבוצתית. האתר כולל עמוד ראשי ועמודים אישיים עבור כל משתתפת בקבוצה.
-
----
-
-## 💡 תיאור הפרויקט
-
-האתר הוא אתר סטטי הכולל:
-
-* עמוד בית (`index.html`) המציג רשימה של משתתפות הפרויקט.
-* עמודים אישיים לכל משתתפת, הכוללים מידע קצר ותמונה.
-* קישורים פנימיים בין העמודים.
-
-מטרת הפרויקט היא תרגול:
-
-* מבנה בסיסי של פרויקט HTML.
-* יצירת קישורים פנימיים בין עמודים.
-* עיצוב בסיסי באמצעות CSS.
-* עבודה משותפת על פרויקט באמצעות Git ו-GitHub.
+> An educational project created to practice **HTML, CSS, and GitHub** in a group setting. The website includes a main page and individual profile pages for each participant.
 
 ---
 
-## 📁 מבנה התיקיות
+## 💡 Project Overview
+
+The website is a static site that includes:
+
+* A homepage (`index.html`) displaying a list of project participants.
+* Individual pages for each participant, containing brief information and an image.
+* Internal links between the pages.
+
+The purpose of the project is to practice:
+
+* Basic structure of an HTML project.
+* Creating internal links between pages.
+* Basic styling with CSS.
+* Collaborative work on a project using Git and GitHub.
+
+---
+
+## 📁 Folder Structure
 
 ```plaintext
 /project-root
-├─ index.html            # עמוד הבית המרכזי
+├─ index.html            # Main homepage
 ├─ css/
-│   └─ style.css         # קובץ העיצוב הכללי
+│   └─ style.css         # Global stylesheet
 ├─ members/
-│   ├─ ruti.html         # עמוד אישי לדוגמה
-│   ├─ sara.html         # עמוד אישי נוסף
-│   ├─ noa.html          # עמוד אישי נוסף
-│   └─ template.html     # תבנית בסיסית לעמוד חדש
+│   ├─ ruti.html         # Example personal page
+│   ├─ sara.html         # Another personal page
+│   ├─ noa.html          # Another personal page
+│   └─ template.html     # Basic template for new pages
 └─ assets/
-    ├─ img/              # תיקיית תמונות
-    └─ logo.png          # לוגו הקבוצה (אופציונלי)
+    ├─ img/              # Images folder
+    └─ logo.png          # Optional team logo
 ```
 
 ---
 
-## 🌐 דוגמת קוד מתוך `index.html`
+## 🌐 Example from `index.html`
 
 ```html
 <ul>
-  <li><a href="members/ruti.html">רותי הולצמן</a></li>
-  <li><a href="members/sara.html">שרה כהן</a></li>
-  <li><a href="members/noa.html">נועה לוי</a></li>
+  <li><a href="members/ruti.html">Ruti Holtzman</a></li>
+  <li><a href="members/sara.html">Sara Cohen</a></li>
+  <li><a href="members/noa.html">Noa Levi</a></li>
 </ul>
 ```
 
 ---
 
-#
-## 🧩 הנחיות לעבודה קבוצתית
+## 🧩 Collaboration Guidelines
 
-1. כל משתתפת יוצרת ענף (branch) נפרד ב-GitHub.
-2. בעבור כל משתתפת נוצר עמוד חדש בתיקייה `members/`.
-3. לאחר השלמת העמוד, מתבצע איחוד (Pull Request) אל הענף הראשי.
+1. Each participant creates a separate branch in GitHub.
+2. A new page is created for each participant in the `members/` folder.
+3. After completing the page, a Pull Request is submitted to merge it into the main branch.
 
-העבודה בשיטה זו מאפשרת תרגול של עבודה משותפת, ניהול גרסאות, ושילוב שינויים בצורה מסודרת.
-
+This workflow allows practicing collaborative work, version control, and organized integration of changes.
 
 ---
 
-## ❤️ קרדיט
+## ❤️ Credits
 
-האתר נבנה במסגרת פרויקט קבוצתי של תלמידות במטרה ללמוד ולהתנסות בעבודה מעשית עם כלים בסיסיים לפיתוח אתרים.
+The website was developed as a group project by students to learn and gain hands-on experience with basic web development tools.
 
 ---
 
-## 📜 רישיון
+## 📜 License
 
-הפרויקט פתוח לשימוש חופשי. ניתן להעתיק, לערוך ולהתאים לצרכים לימודיים או אישיים.
+The project is open source and free to use. It can be copied, edited, and adapted for educational or personal purposes.
